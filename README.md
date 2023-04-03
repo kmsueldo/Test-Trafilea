@@ -18,7 +18,7 @@ API for creating a cart, adding products to the cart, getting cart data, updatin
 
 ##  API Endpoints
 
-1.   ###Create a cart
+1.   Create a cart
 
 #### POST /api/v1/create_cart
 
@@ -59,7 +59,7 @@ Example of request response with status code 200
 ~~~
 
 
-2. ###Get cart 
+2. Get cart 
 
 #### GET /api/v1/cart
 
@@ -80,7 +80,7 @@ Example of request response with status code 200
 }
 ~~~
 
-3. ###Add product to cart
+3. Add product to cart
 
 #### POST /api/v1/add_product_cart
 
@@ -108,7 +108,7 @@ Example of request response with status code 200
 }
 ~~~
 
-4. ###Update the quantity of a specific product
+4. Update the quantity of a specific product
 
 #### PUT /api/v1/update_quantity_product
 
@@ -136,7 +136,7 @@ Example of request response with status code 200
 }
 ~~~
 
-5. ###Create cart order
+5. Create cart order
 
 #### POST /api/v1/create_order
 
